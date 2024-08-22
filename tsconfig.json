@@ -1,17 +1,17 @@
 {
-    "compilerOptions": {
-        "strict": true,
-        "module":"ESNext",
-        "esModuleInterop": true,
-        "allowSyntheticDefaultImports":true,
-        "forceConsistentCasingInFileNames": true,
-        "target": "ES6",
-        "moduleResolution": "node",
-        "sourceMap": true,
-        "outDir": "build",
-        "rootDir": "./src"
-    },
-    "lib": ["es2015"],
-    // "include": ["src/**/*"],
-    // "exclude": ["node_modules"]
-  }
+	"compilerOptions": {
+		"strict": true,
+		"module": "NodeNext",
+		"target": "ESNext",
+		"moduleResolution": "NodeNext",
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"forceConsistentCasingInFileNames": true,
+		"sourceMap": true,
+		"outDir": "build",
+		"rootDir": "./src"
+	},
+	"lib": ["es2015"]
+	// "include": ["src/**/*"],
+	// "exclude": ["node_modules"]
+}
